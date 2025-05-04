@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { HandCoins  } from 'lucide-react';
 import {
   Home,
   Image as GalleryIcon,
@@ -51,12 +52,12 @@ const Sidebar = () => {
   const menuItems = [
     { icon: Home, label: 'Home', path: '/' },
     { icon: GalleryIcon, label: 'Gallery', path: '/gallery' },
-    { icon: Users, label: 'Partners', path: '/partners' },
+    { icon: HandCoins , label: 'Sponsors', path: '/partners' },
     { icon: Users, label: 'Humans', path: '/humans' },
-    // { icon: Trophy, label: 'Prize', path: '/prize' },
+    { icon: Calendar, label: 'Tracks', path: '/tracks' },
     { icon: HelpCircle, label: 'FAQs', path: '/faqs' },
+    { icon: MapPin, label: 'Venue', path: '/venue' },
      // { icon: Phone, label: 'Contact', path: '/contact' },
-    // { icon: MapPin, label: 'Venue', path: '/venue' },
       // { icon: Trophy, label: 'Prize', path: '/prize' },
     // { icon: Calendar, label: 'Schedule', path: '/schedule' },
   ];
