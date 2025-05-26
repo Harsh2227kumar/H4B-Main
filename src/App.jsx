@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ManinNav from "./Components/MainNav";
-import ClickEffect from "./Components/ClickEffect";
 
 import Hero from "./Pages/Hero";
 import Gallery from "./Pages/Gallery";
